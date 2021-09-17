@@ -1,7 +1,12 @@
 .Item{
-    width: 500px;
+    width: 400px;
     padding: 20px;
     border: 1px solid;
     margin: 20px;
+    display: inline-block;
 }
 
+.Item-news-img{
+    width: 100%;
+    height: 400px;
+}
