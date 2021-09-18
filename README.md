@@ -1,71 +1,25 @@
-# Getting Started with Create React App
+# Latihan React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Tampilan pada halaman `Home`
+![2021-09-18](https://user-images.githubusercontent.com/71221969/133893374-908de6b8-a53a-4c44-bed4-5b56dc4b11fb.png)
 
-## Available Scripts
+## 2. Tampilan pada halaman `ContactUs`
+Pada halaman `ContactUs` terdapat validasi pada kolom `Full Name`, `Email` dan `Phone`
 
-In the project directory, you can run:
+### Tampilan ketika pertama kali load
+![2021-09-18 (1)](https://user-images.githubusercontent.com/71221969/133893423-a84960cf-0f0e-4119-a54c-441cdb046c74.png)
 
-### `npm start`
+### Tampilan ketika input tidak sesuai
+![2021-09-18 (2)](https://user-images.githubusercontent.com/71221969/133893478-316e83d1-b85c-412c-b135-dc02440b95ee.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Tampilan ketika input tidak sesuai dan tombol submit ditekan
+![2021-09-18 (3)](https://user-images.githubusercontent.com/71221969/133893511-fdee09f0-b46d-4d8a-b33e-008ebc912701.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Tampilan ketika input berhasil melewati validasi
+![2021-09-18 (6)](https://user-images.githubusercontent.com/71221969/133893537-153a112f-3dc2-4598-a64a-bb00555be258.png)
 
-### `npm test`
+## 3. Tampilan pada halaman `Review`
+![2021-09-18 (4)](https://user-images.githubusercontent.com/71221969/133893562-338f717f-08fd-4a12-a748-9cb400a340e3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+## 4. Tampilan pada halaman `News`
+![2021-09-18 (5)](https://user-images.githubusercontent.com/71221969/133893575-00050f91-8e7b-4fca-b173-73efaf5a1cff.png)
