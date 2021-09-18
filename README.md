@@ -1,4 +1,5 @@
 # Latihan React
+visit http://latihan-react-task.surge.sh/
 
 ## 1. Tampilan pada halaman `Home`
 ![2021-09-18](https://user-images.githubusercontent.com/71221969/133893374-908de6b8-a53a-4c44-bed4-5b56dc4b11fb.png)
