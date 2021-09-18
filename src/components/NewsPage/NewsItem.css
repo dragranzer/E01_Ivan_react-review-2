@@ -1,9 +1,11 @@
 .Item{
-    width: 400px;
+    width: 50%;
     padding: 20px;
     border: 1px solid;
-    margin: 20px;
-    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .Item-news-img{

@@ -11,7 +11,7 @@ function NewsList() {
             const res = await Axios.get(URL)
 
             setArticles(res.data.articles)
-            // console.log(res)
+            console.log(res.data.articles)
         }
 
         getArticles();
@@ -22,12 +22,14 @@ function NewsList() {
         <div>
             <Navbar />
             {
-                articles.map(({title, description, url, urlToImage}) => (
+                articles.map(({title, description, url, urlToImage, author, publishedAt}) => (
                     <NewsItem
                         title={title}
                         description={description}
                         url={url}
                         urlToImage={urlToImage}
+                        author={author}
+                        publishedAt={publishedAt}
                     />
                 ))
                 

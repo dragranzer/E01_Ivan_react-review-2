@@ -2,6 +2,7 @@ import React from 'react'
 import '../assets/css/contact_us.css'
 import sideImg from '../assets/img/charles-rRWiVQzLm7k-unsplash.jpg'
 import Logo from '../assets/img/logo-ALTA-v2.png'
+import swal from 'sweetalert';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { handleEdit } from '../../store/FormSlice';
@@ -78,10 +79,19 @@ function ContactUs() {
                 nationality: data.nationality,
                 message: data.message
             }
+            swal({
+                title: "Success",
+                text: "Data berhasil kami terima",
+                icon: "success",
+            });
             dispatch(handleEdit(newData));
         }else{
             e.preventDefault();
-            alert("Mohon Patuhi Aturan Form")
+            swal({
+                title: "Error",
+                text: "Mohon isi data sesuai ketentuan",
+                icon: "error",
+            });
         }
     }
 
@@ -167,7 +177,7 @@ function ContactUs() {
                             <option value="Arab">Arab</option>
                         </select>
                         <label for="message" className='form-label'>Message</label>
-                        <textarea name="message" id="message" className='form-control form-control-sm' placeholder="Your Full Name Here..." value={data.message} name="message" onChange={onChange}></textarea>
+                        <textarea rows="10" name="message" id="message" className='form-control form-control-sm' placeholder="Your Full Name Here..." value={data.message} name="message" onChange={onChange}></textarea>
                         <Link to="/review">
                             <input type="submit" value="Submit" className="submit" onClick={handleSubmit} />
                         </Link>

@@ -13,7 +13,7 @@ function Navbar() {
     }
     useEffect(() => {
         const timerId = setInterval(refreshClock, 1000);
-
+        console.log("masuk settimer")
         return function cleanup() {
             clearInterval(timerId);
         };
