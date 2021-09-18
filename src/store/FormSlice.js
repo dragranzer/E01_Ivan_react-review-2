@@ -15,15 +15,16 @@ export const FormSlice = createSlice ({
     },
     reducers:{
         handleEdit: (state, action) => {
-            // console.log("dalam form s",action.payload)
-            // const newName = state.personal
-            // newName.map(item => {
-            //     item.isEditing = !item.isEditing
-            //     item.title = action.payload.title
-            // })
-            
-             state.personal = action.payload
-            //  console.log(state.personal)
+            const regexNama = /^[A-Za-z ]+$/
+            const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
+            const regexPhone = /^[0-9]*$/
+            if(!(action.payload.nama === "")){
+                if(regexNama.test(action.payload.nama)&&
+                    regexEmail.test(action.payload.email)&&
+                    regexPhone.test(action.payload.phone)){
+                        state.personal = action.payload
+                }
+            }
         }
     }
 })

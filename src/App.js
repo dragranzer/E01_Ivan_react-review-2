@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs/ContactUs'
 import {store, persistor} from "./store/store"
 import Review from "./components/Review/Review"
 import NewsList from "./components/NewsPage/NewsList"
+import NotFound from './components/NotFound/NotFound'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Route exact path="/contact_us" render={() => <ContactUs />}/>
               <Route exact path="/review" render={() => <Review />}/>
               <Route exact path="/news" render={() => <NewsList />}/>
+              <Route exact path="*" render={() => <NotFound />}/>
             </Switch>
           </Router>
         </PersistGate>
